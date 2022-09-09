@@ -3,7 +3,28 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    pantry-tree:
+      sha256: cd5221b2f37a0cdfc8b682c17f59e713d025aa3d6594338264bdac89a219d4d0
+      size: 357
+    hackage: gi-gtk-4.0.5@sha256:d7f78b73ea3307340144ab0cd36c307349e6cbeb4c93f6f0267f2346acc1105a,34332
+  original:
+    hackage: gi-gtk-4.0.5
+- completed:
+    pantry-tree:
+      sha256: 9d951d64f5909bbea1f8b15474c3971cedeb1edb6cdc2fa98d37a9fc7522976d
+      size: 355
+    hackage: gi-gdk-4.0.4@sha256:9200e194423f4f3ba6d549b083bd86852709b2158c8d6ca5074d2c577aa59102,8792
+  original:
+    hackage: gi-gdk-4.0.4
+- completed:
+    pantry-tree:
+      sha256: 6d34a943507dd9fb648527a95ccefc366a4b72427faf424fcde6bb7e743e6961
+      size: 353
+    hackage: gi-gsk-4.0.4@sha256:e1937fb0856efc6dee2c58852da08625f12eaceba2a4fef1c4bd9f1b2f7da9b1,7080
+  original:
+    hackage: gi-gsk-4.0.4
 snapshots:
 - completed:
     sha256: 5098594e71bdefe0c13e9e6236f12e3414ef91a2b89b029fd30e8fc8087f3a07
